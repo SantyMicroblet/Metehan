@@ -1183,4 +1183,8 @@ body {
         line-height: 16px;
         margin-bottom: 0px;
     }
+
+    img {
+        border-radius: 4px;
+    }
 }
