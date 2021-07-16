@@ -2,19 +2,32 @@ body {
     font-family: 'Fahkwang';
 }
 
+.container-fluid {
+    padding: 0px;
+    overflow: hidden;
+}
+
 .row>* {
     padding-right: 0;
     padding-left: 0;
 }
 
-.logom {
+.uno {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logom svg {
     margin-top: 48px;
-    margin-bottom: 443px;
 }
 
 .who {
     padding-left: 120px;
     padding-right: 120px;
+    display: flex;
+    flex-direction: column;
 }
 
 .who h6 {
@@ -41,24 +54,24 @@ body {
     color: rgba(249, 242, 242, 0.64);
     width: 750px;
     position: relative;
-}
-
-.who svg {
-    position: absolute;
-    margin-top: 12px;
+    margin-bottom: 18.5vh;
 }
 
 .cv {
     margin-left: 8px;
+    position: absolute;
+    margin-top: 12px;
 }
 
 .arrow {
     margin-left: 50px;
+    position: absolute;
+    margin-top: 12px;
 }
 
 .scroll {
-    margin-top: 175px;
     margin-bottom: 32px;
+    margin-bottom: 3vh;
 }
 
 .news {
@@ -789,17 +802,6 @@ body {
 }
 
 @media screen and (max-width: 376px) {
-    .uno {
-        width: 100vw;
-        height: 100vh;
-    }
-
-    .logom {
-        margin-bottom: 272px;
-        width: 40px;
-        height: 40px;
-    }
-
     .logom svg {
         width: 40px;
         height: 40px;
@@ -808,7 +810,6 @@ body {
     .who {
         padding-left: 24px;
         padding-right: 24px;
-        height: 169px;
     }
 
     .who h6 {
@@ -835,6 +836,7 @@ body {
         width: 327px;
         height: 114px;
         color: rgba(249, 242, 242, 0.6);
+        margin-bottom: 62px;
     }
 
     .cv {
@@ -846,7 +848,6 @@ body {
     }
 
     .scroll {
-        margin-top: 62px;
         margin-bottom: 32px;
     }
 
