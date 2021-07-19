@@ -74,8 +74,15 @@ body {
     margin-bottom: 3vh;
 }
 
+.dos {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .news {
-    margin: 138px 120px 136px 120px;
+    margin-left: 120px;
+    margin-right: 120px;
     flex-wrap: wrap-reverse;
 }
 
@@ -113,8 +120,15 @@ body {
     margin-left: 8px;
 }
 
+.tres {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .messaging {
-    margin: 138px 120px 136px 120px;
+    margin-left: 120px;
+    margin-right: 120px;
     flex-wrap: wrap-reverse;
 }
 
@@ -148,8 +162,15 @@ body {
     width: 510px;
 }
 
+.cuatro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .plant {
-    margin: 157px 92px 117px 120px;
+    margin-left: 120px;
+    margin-right: 92px;
     flex-wrap: wrap-reverse;
 }
 
@@ -183,8 +204,15 @@ body {
     width: 510px;
 }
 
+.cinco {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .social {
-    margin: 137px 120px 137px 120px;
+    margin-left: 120px;
+    margin-right: 120px;
     flex-wrap: wrap-reverse;
 }
 
@@ -218,8 +246,15 @@ body {
     width: 510px;
 }
 
+.seis {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .clothes {
-    margin: 137px 120px 137px 120px;
+    margin-right: 120px;
+    margin-left: 120px;
     flex-wrap: wrap-reverse;
 }
 
@@ -253,8 +288,15 @@ body {
     width: 510px;
 }
 
+.siete {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .evde {
-    margin: 137px 120px 137px 120px;
+    margin-right: 120px;
+    margin-left: 120px;
     flex-wrap: wrap-reverse;
 }
 
@@ -288,8 +330,15 @@ body {
     width: 510px;
 }
 
+.ocho {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .proteco {
-    margin: 138px 120px 136px 120px;
+    margin-left: 120px;
+    margin-right: 120px;
     flex-wrap: wrap-reverse;
 }
 
@@ -324,10 +373,15 @@ body {
     margin-bottom: 16px;
 }
 
+.nueve {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .footer {
-    padding-top: 178px;
     padding-left: 120px;
-    padding-bottom: 64px;
+    padding-right: 120px;
 }
 
 .footer h1 {
