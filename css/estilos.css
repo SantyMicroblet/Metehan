@@ -1,6 +1,4 @@
-body {
-    font-family: 'Fahkwang';
-}
+body {font-family: 'Fahkwang';}
 
 .container-fluid {
     padding: 0px;
@@ -12,379 +10,214 @@ body {
     padding-left: 0;
 }
 
-.uno {
+h6 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #140D0C;
+}
+
+h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    color: #140D0C;
+}
+
+p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 39px;
+    color: #140D0C;
+    width: 510px;
+}
+
+/* ============ Page 1 ==================================================================================================================================== */
+.page-one {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-.logom svg {
+.page-one__logo svg {
     margin-top: 48px;
 }
 
-.who {
+.page-one__content {
     padding-left: 120px;
     padding-right: 120px;
     display: flex;
     flex-direction: column;
 }
 
-.who h6 {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 21px;
+.page-one__content h6 {
     color: rgba(249, 242, 242, 0.48);
 }
 
-.who h5 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
-    color: #F9F2F2;
-}
+.page-one__content h5 {color: #F9F2F2;}
 
-.who p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 39px;
+.page-one__content p {
     color: rgba(249, 242, 242, 0.64);
     width: 750px;
     position: relative;
     margin-bottom: 18.5vh;
 }
 
-.cv {
+.page-one__cv {
     margin-left: 8px;
     position: absolute;
     margin-top: 12px;
 }
 
-.arrow {
+.page-one__arrow {
     margin-left: 50px;
     position: absolute;
     margin-top: 12px;
 }
 
-.scroll {
+.page-one__scroll {
     margin-bottom: 32px;
     margin-bottom: 3vh;
 }
 
-.dos {
+/* ============ Page 2 ==================================================================================================================================== */
+.page-two {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.news {
+.page-two__content {
     margin-left: 120px;
     margin-right: 120px;
     flex-wrap: wrap-reverse;
 }
 
-.concept {
-    margin-top: 207px;
-}
+.page-two__texts {margin: auto 0;}
 
-.concept h6 {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 21px;
-    color: #140D0C;
-}
-
-.concept h5 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
-    color: #140D0C;
-}
-
-.concept p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 39px;
-    color: #140D0C;
-    width: 510px;
-    margin-bottom: 16px;
-}
-
-.flecha {
+.pointer {
     margin-left: 8px;
 }
 
-.tres {
+/* ============ Page 3 ==================================================================================================================================== */
+.page-three {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.messaging {
+.page-three__content {
     margin-left: 120px;
     margin-right: 120px;
     flex-wrap: wrap-reverse;
 }
 
-.application {
+.page-three__texts {
     margin-top: 246px;
 }
 
-.application h6 {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 21px;
-    color: #140D0C;
-}
-
-.application h5 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
-    color: #140D0C;
-}
-
-.application p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 39px;
-    color: #140D0C;
-    margin-bottom: 16px;
-    width: 510px;
-}
-
-.cuatro {
+/* ============ Page 4 ==================================================================================================================================== */
+.page-four {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.plant {
+.page-four__content {
     margin-left: 120px;
     margin-right: 92px;
     flex-wrap: wrap-reverse;
 }
 
-.shopping {
+.page-four__texts {
     margin-top: 265px;
 }
 
-.shopping h6 {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 21px;
-    color: #140D0C;
-}
-
-.shopping h5 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
-    color: #140D0C;
-}
-
-.shopping p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 39px;
-    color: #140D0C;
-    margin-bottom: 16px;
-    width: 510px;
-}
-
-.cinco {
+/* ============ Page 5 ==================================================================================================================================== */
+.page-five {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.social {
+.page-five__content {
     margin-left: 120px;
     margin-right: 120px;
     flex-wrap: wrap-reverse;
 }
 
-.media {
+.page-five__texts {
     margin-top: 226px;
 }
 
-.media h6 {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 21px;
-    color: #140D0C;
-}
-
-.media h5 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
-    color: #140D0C;
-}
-
-.media p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 39px;
-    color: #140D0C;
-    margin-bottom: 16px;
-    width: 510px;
-}
-
-.seis {
+/* ============ Page 6 ==================================================================================================================================== */
+.page-six {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.clothes {
+.page-six__content {
     margin-right: 120px;
     margin-left: 120px;
     flex-wrap: wrap-reverse;
 }
 
-.users {
+.page-six__texts {
     margin-top: 246px;
 }
 
-.users h6 {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 21px;
-    color: #140D0C;
-}
-
-.users h5 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
-    color: #140D0C;
-}
-
-.users p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 39px;
-    color: #140D0C;
-    margin-bottom: 16px;
-    width: 510px;
-}
-
-.siete {
+/* ============ Page 7 ==================================================================================================================================== */
+.page-seven {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.evde {
+.page-seven__content {
     margin-right: 120px;
     margin-left: 120px;
     flex-wrap: wrap-reverse;
 }
 
-.website {
+.page-seven__texts {
     margin-top: 246px;
 }
 
-.website h6 {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 21px;
-    color: #140D0C;
-}
-
-.website h5 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
-    color: #140D0C;
-}
-
-.website p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 39px;
-    color: #140D0C;
-    margin-bottom: 16px;
-    width: 510px;
-}
-
-.ocho {
+/* ============ Page 8 ==================================================================================================================================== */
+.page-eight {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.proteco {
+.page-eight__content {
     margin-left: 120px;
     margin-right: 120px;
     flex-wrap: wrap-reverse;
 }
 
-.provides {
+.page-eight__texts {
     margin-top: 265px;
 }
 
-.provides h6 {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 21px;
-    color: #140D0C;
-}
-
-.provides h5 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
-    color: #140D0C;
-
-}
-
-.provides p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 39px;
-    color: #140D0C;
-    width: 510px;
-    margin-bottom: 16px;
-}
-
-.nueve {
+/* ============ Page 9 ==================================================================================================================================== */
+.page-nine {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.footer {
+.page-nine__footer {
     padding-left: 120px;
     padding-right: 120px;
 }
 
-.footer h1 {
+.page-nine__footer h1 {
     font-style: normal;
     font-weight: 300;
     font-size: 32px;
@@ -393,7 +226,7 @@ body {
     margin-bottom: 32px;
 }
 
-.footer h2 {
+.page-nine__footer h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
@@ -404,7 +237,7 @@ body {
     color: #140D0C;
 }
 
-.footer h3 {
+.page-nine__footer h3 {
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -413,7 +246,7 @@ body {
     margin-bottom: 16px;
 }
 
-.footer h4 {
+.page-nine__footer h4 {
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
@@ -422,7 +255,7 @@ body {
     margin-bottom: 64px;
 }
 
-.redes p {
+.page-nine__networks p {
     margin-right: 48px;
     font-style: normal;
     font-weight: 300;
@@ -431,9 +264,10 @@ body {
     color: #FE5900;
     margin-bottom: 129px;
     text-decoration: underline;
+    width: 96px;
 }
 
-.footer h5 {
+.page-nine__footer h5 {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -442,142 +276,51 @@ body {
     margin-bottom: 47px;
 }
 
-.footer h6 {
-    font-style: normal;
+.page-nine__footer h6 {
     font-weight: normal;
     font-size: 14px;
     line-height: 23px;
     color: rgba(249, 242, 242, 0.64);
 }
 
+/* =========== Media Querie 1340 ======================================================================================================================== */
+
 @media screen and (max-width: 1340px){
-    .news {
-        justify-content: center !important;
-    }
+    p {width: 570px;}
 
-    .concept {
-        margin-top: 16px;
-        width: 570px;
-    }
+    .page-two__content {justify-content: center !important;}
+    .page-two__texts {margin-top: 16px;}
 
-    .concept p {
-        width: 570px;
-    }
+    .page-three__content {justify-content: center !important;}
+    .page-three__texts {margin-top: 16px;}
 
-    .messaging {
-        justify-content: center !important;
-    }
+    .page-four__content {justify-content: center !important;}
+    .page-four__texts {margin-top: 16px;}
 
-    .application {
-        margin-top: 16px;
-        width: 570px;
-    }
+    .page-five__content {justify-content: center !important;}
+    .page-five__texts {margin-top: 16px;}
 
-    .application p {
-        width: 570px;
-    }
+    .page-six__content {justify-content: center !important;}
+    .page-six__texts {margin-top: 16px;}
 
-    .plant {
-        justify-content: center !important;
-    }
+    .page-seven__content {justify-content: center !important;}
+    .page-seven__texts {margin-top: 16px;}
 
-    .shopping {
-        margin-top: 16px;
-        width: 570px;
-    }
-
-    .shopping p {
-        width: 570px;
-    }
-
-    .social {
-        justify-content: center !important;
-    }
-
-    .media {
-        margin-top: 16px;
-        width: 570px;
-    }
-
-    .media p {
-        width: 570px;
-    }
-
-    .clothes {
-        justify-content: center !important;
-    }
-
-    .users {
-        margin-top: 16px;
-        width: 570px;
-    }
-
-    .users p {
-        width: 570px;
-    }
-
-    .evde {
-        justify-content: center !important;
-    }
-
-    .website {
-        margin-top: 16px;
-        width: 570px;
-    }
-
-    .website p {
-        width: 570px;
-    }
-
-    .proteco {
-        justify-content: center !important;
-    }
-
-    .provides {
-        margin-top: 16px;
-        width: 570px;
-    }
-
-    .provides p {
-        width: 570px;
-    }
-
+    .page-eight__content {justify-content: center !important;}
+    .page-eight__texts {margin-top: 16px;}
 }
 
+/* =========== Media Querie 850 ======================================================================================================================== */
+
 @media screen and (max-width: 850px) {
-    .news {
-        margin: 24px;
-    }
+    .page-two__content, .page-three__content,
+    .page-four__content, .page-five__content,
+    .page-six__content, .page-seven__content,
+    .page-eight__content {margin: 24px;}
+    
+    .page-nine__footer {padding: 185px 13px 64px 24px;}
 
-    .messaging {
-        margin: 24px;
-    }
-
-    .plant {
-        margin: 24px;
-    }
-
-    .social {
-        margin: 24px;
-    }
-
-    .clothes {
-        margin: 24px;
-    }
-
-    .evde {
-        margin: 24px;
-    }
-
-    .proteco {
-        margin: 24px;
-    }
-
-    .footer {
-        padding: 185px 13px 64px 24px;
-    }
-
-    .footer h1 {
+    .page-nine__footer h1 {
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
@@ -585,7 +328,7 @@ body {
         margin-bottom: 16px;
     }
 
-    .footer h2 {
+    .page-nine__footer h2 {
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
@@ -594,7 +337,7 @@ body {
         -webkit-text-stroke-width: 0.4px;
     }
 
-    .footer h3 {
+    .page-nine__footer h3 {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
@@ -602,7 +345,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .footer h4 {
+    .page-nine__footer h4 {
         font-style: normal;
         font-weight: 300;
         font-size: 14px;
@@ -610,7 +353,7 @@ body {
         margin-bottom: 32px;
     }
 
-    .redes p {
+    .page-nine__networks p {
         font-style: normal;
         font-weight: 300;
         font-size: 14px;
@@ -621,233 +364,74 @@ body {
     }
 }
 
+/* =========== Media Querie 635 ======================================================================================================================== */
+
 @media screen and (max-width: 635px) {
-    .who {
+    .page-one__content {
         padding-right: 60px;
         padding-left: 60px;
     }
 
-    .details {
-        width: 82px;
-        height: 29px;
-    }
+    .details {width: 82px; height: 29px;}
 
-    .news img {
-        width: 100%;
-        min-width: 327px;
-    }
+    img {width: 100%; min-width: 327px;}
+    h6 {font-size: 14px;}
+    h5 {font-size: 25px;}
 
-    .concept {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .concept h6 {
-        font-size: 14px;
-    }
-
-    .concept h5 {
-        font-size: 25px;
-    }
-
-    .concept p {
+    p {
         width: 100%;
         min-width: 327px;
         font-size: 19px;
         line-height: 30.74px;
     }
 
-    .messaging img {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .application {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .application h6 {
-        font-size: 14px;
-    }
-
-    .application h5 {
-        font-size: 25px;
-    }
-
-    .application p {
-        width: 100%;
-        min-width: 327px;
-        font-size: 19px;
-        line-height: 30.74px;
-    }
-
-    .plant img {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .shopping {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .shopping h6 {
-        font-size: 14px;
-    }
-
-    .shopping h5 {
-        font-size: 25px;
-    }
-
-    .shopping p {
-        width: 100%;
-        min-width: 327px;
-        font-size: 19px;
-        line-height: 30.74px;
-    }
-
-    .social img {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .media {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .media h6 {
-        font-size: 14px;
-    }
-
-    .media h5 {
-        font-size: 25px;
-    }
-
-    .media p {
-        width: 100%;
-        min-width: 327px;
-        font-size: 19px;
-        line-height: 30.74px;
-    }
-
-    .clothes img {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .users {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .users h6 {
-        font-size: 14px;
-    }
-
-    .users h5 {
-        font-size: 25px;
-    }
-
-    .users p {
-        width: 100%;
-        min-width: 327px;
-        font-size: 19px;
-        line-height: 30.74px;
-    }
-
-    .evde img {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .website {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .website h6 {
-        font-size: 14px;
-    }
-
-    .website h5 {
-        font-size: 25px;
-    }
-
-    .website p {
-        width: 100%;
-        min-width: 327px;
-        font-size: 19px;
-        line-height: 30.74px;
-    }
-
-    .proteco img {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .provides {
-        width: 100%;
-        min-width: 327px;
-    }
-
-    .provides h6 {
-        font-size: 14px;
-    }
-
-    .provides h5 {
-        font-size: 25px;
-    }
-
-    .provides p {
-        width: 100%;
-        min-width: 327px;
-        font-size: 19px;
-        line-height: 30.74px;
-    }
+    .page-two__texts, .page-three__texts,
+    .page-four__texts, .page-five__texts,
+    .page-six__texts, .page-seven__texts,
+    .page-eight__texts {width: 100%; min-width: 327px;}
 
     .soon {
         width: 38px;
         height: 29px
     }
 
-    .flecha {
+    .pointer {
         width: 14px;
         height: 14px;
         margin-left: 7px;
     }
-
 }
 
+/* =========== Media Querie 565 ======================================================================================================================== */
+
 @media screen and (max-width: 565px) {
-    .who {
+    .page-one__content {
         padding-left: 35px;
         padding-right: 35px;
     }
     
-    .who h6 {
+    .page-one__content h6 {
         font-size: 14px;
         line-height: 18.5px;
     }
 
-    .who h5 {
+    .page-one__content h5 {
         font-size: 25px;
         line-height: 32.5px;
     }
 
-    .who p {
+    .page-one__content p {
         font-size: 19px;
         line-height: 31px;
     }
 
-    .cv {
+    .page-one__cv {
         width: 23px;
         height: 29px;
         margin-top: 3px !important;
     }
 
-    .arrow {
+    .page-one__arrow {
         width: 14px;
         height: 14px;
         margin-left: 40px !important;
@@ -855,18 +439,20 @@ body {
     }
 }
 
+/* =========== Media Querie 376 ======================================================================================================================== */
+
 @media screen and (max-width: 376px) {
-    .logom svg {
+    .page-one__logo svg {
         width: 40px;
         height: 40px;
     }
 
-    .who {
+    .page-one__content {
         padding-left: 24px;
         padding-right: 24px;
     }
 
-    .who h6 {
+    .page-one__content h6 {
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
@@ -874,7 +460,7 @@ body {
         margin-bottom: 8px;
     }
     
-    .who h5 {
+    .page-one__content h5 {
         margin-bottom: 8px;
         font-style: normal;
         font-weight: bold;
@@ -882,7 +468,7 @@ body {
         line-height: 23px;
     }
 
-    .who p {
+    .page-one__content p {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -893,44 +479,43 @@ body {
         margin-bottom: 62px;
     }
 
-    .cv {
+    .page-one__cv {
         margin-top: -3px !important;
     }
 
-    .arrow {
+    .page-one__arrow {
         margin-top: 4px !important;
     }
 
-    .scroll {
+    .page-one__scroll {
         margin-bottom: 32px;
     }
 
-    .scroll svg {
+    .page-one__scroll svg {
         width: 71px;
         height: 44px;
     }
 
-    .dos {
-        width: 100vw;
+    .page-two {
         height: 100vh;
     }
 
-    .news {
+    .page-two__content {
         margin: 24px;
     }
 
-    .news img {
+    .page-two__content img {
         width: 327px;
         height: 420px;
     }
 
-    .concept {
+    .page-two__texts {
         margin-top: 8px;
         width: 327px;
         height: 183px;
     }
 
-    .concept h6 {
+    .page-two__texts h6 {
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
@@ -938,7 +523,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .concept h5 {
+    .page-two__texts h5 {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
@@ -946,7 +531,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .concept p {
+    .page-two__texts p {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -954,27 +539,26 @@ body {
         margin-bottom: 8px;
     }
 
-    .tres {
-        width: 100vw;
+    .page-three {
         height: 100vh;
     }
 
-    .messaging {
+    .page-three__content {
         margin: 24px 24px 47px 24px;
     }
 
-    .messaging img {
+    .page-three__content img {
         width: 327px;
         height: 420px;
     }
 
-    .application {
+    .page-three__texts {
         margin-top: 8px;
         width: 327px;
         height: 160px;
     }
 
-    .application h6 {
+    .page-three__texts h6 {
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
@@ -982,7 +566,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .application h5 {
+    .page-three__texts h5 {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
@@ -990,7 +574,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .application p {
+    .page-three__texts p {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -998,27 +582,26 @@ body {
         margin-bottom: 8px;
     }
 
-    .cuatro {
-        width: 100vw;
+    .page-four {
         height: 100vh;
     }
 
-    .plant {
+    .page-four__content {
         margin: 24px 24px 69px 24px;
     }
 
-    .plant img {
+    .page-four__content img {
         width: 327px;
         height: 420px;
     }
 
-    .shopping {
+    .page-four__texts {
         margin-top: 8px;
         width: 327px;
         height: 138px;
     }
 
-    .shopping h6 {
+    .page-four__texts h6 {
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
@@ -1026,7 +609,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .shopping h5 {
+    .page-four__texts h5 {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
@@ -1034,7 +617,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .shopping p {
+    .page-four__texts p {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -1042,27 +625,26 @@ body {
         margin-bottom: 8px;
     }
 
-    .cinco {
-        width: 100vw;
+    .page-five {
         height: 100vh;
     }
     
-    .social {
+    .page-five__content {
         margin: 24px;
     }
 
-    .social img {
+    .page-five__content img {
         width: 327px;
         height: 420px;
     }
 
-    .media {
+    .page-five__texts {
         margin-top: 8px;
         width: 327px;
         height: 183px;
     }
 
-    .media h6 {
+    .page-five__texts h6 {
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
@@ -1070,7 +652,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .media h5 {
+    .page-five__texts h5 {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
@@ -1078,7 +660,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .media p {
+    .page-five__texts p {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -1086,27 +668,26 @@ body {
         margin-bottom: 8px;
     }
 
-    .seis {
-        width: 100vw;
+    .page-six {
         height: 100vh;
     }
 
-    .clothes {
+    .page-six__content {
         margin: 24px 24px 47px 24px;
     }
 
-    .clothes img {
+    .page-six__content img {
         width: 327px;
         height: 420px;
     }
 
-    .users {
+    .page-six__texts {
         margin-top: 8px;
         width: 327px;
         height: 160px;
     }
 
-    .users h6 {
+    .page-six__texts h6 {
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
@@ -1114,7 +695,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .users h5 {
+    .page-six__texts h5 {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
@@ -1122,7 +703,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .users p {
+    .page-six__texts p {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -1130,27 +711,26 @@ body {
         margin-bottom: 8px;
     }
 
-    .siete {
-        width: 100vw;
+    .page-seven {
         height: 100vh;
     }
 
-    .evde {
+    .page-seven__content {
         margin: 24px 24px 47px 24px;
     }
 
-    .evde img {
+    .page-seven__content img {
         width: 327px;
         height: 420px;
     }
 
-    .website {
+    .page-seven__texts {
         margin-top: 8px;
         width: 327px;
         height: 160px;
     }
 
-    .website h6 {
+    .page-seven__texts h6 {
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
@@ -1158,7 +738,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .website h5 {
+    .page-seven__texts h5 {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
@@ -1166,7 +746,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .website p {
+    .page-seven__texts p {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -1174,27 +754,26 @@ body {
         margin-bottom: 8px;
     }
 
-    .ocho {
-        width: 100vw;
+    .page-eight {
         height: 100vh;
     }
 
-    .proteco {
+    .page-eight__content {
         margin: 24px 24px 69px 24px;
     }
 
-    .proteco img {
+    .page-eight__content img {
         width: 327px;
         height: 420px;
     }
 
-    .provides {
+    .page-eight__texts {
         margin-top: 8px;
         width: 327px;
         height: 138px;
     }
 
-    .provides h6 {
+    .page-eight__texts h6 {
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
@@ -1202,7 +781,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .provides h5 {
+    .page-eight__texts h5 {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
@@ -1210,7 +789,7 @@ body {
         margin-bottom: 8px;
     }
 
-    .provides p {
+    .page-eight__texts p {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -1218,20 +797,20 @@ body {
         margin-bottom: 8px;
     }
 
-    .nueve {
-        width: 100vw;
+    .page-nine {
         height: 100vh;
     }
     
-    .footer h5 {
+    .page-nine__footer h5 {
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
         line-height: 16px;
         margin-bottom: 16px;
+        width: 297px;
     }
 
-    .footer h6 {
+    .page-nine__footer h6 {
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
@@ -1243,3 +822,5 @@ body {
         border-radius: 4px;
     }
 }
+
+/*1240*/
