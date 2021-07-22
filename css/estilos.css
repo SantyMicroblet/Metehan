@@ -116,9 +116,7 @@ p {
     flex-wrap: wrap-reverse;
 }
 
-.page-three__texts {
-    margin-top: 246px;
-}
+.page-three__texts {margin: auto 0;}
 
 /* ============ Page 4 ==================================================================================================================================== */
 .page-four {
@@ -133,9 +131,7 @@ p {
     flex-wrap: wrap-reverse;
 }
 
-.page-four__texts {
-    margin-top: 265px;
-}
+.page-four__texts {margin: auto 0;}
 
 /* ============ Page 5 ==================================================================================================================================== */
 .page-five {
@@ -150,9 +146,7 @@ p {
     flex-wrap: wrap-reverse;
 }
 
-.page-five__texts {
-    margin-top: 226px;
-}
+.page-five__texts {margin: auto 0;}
 
 /* ============ Page 6 ==================================================================================================================================== */
 .page-six {
@@ -167,9 +161,7 @@ p {
     flex-wrap: wrap-reverse;
 }
 
-.page-six__texts {
-    margin-top: 246px;
-}
+.page-six__texts {margin: auto 0;}
 
 /* ============ Page 7 ==================================================================================================================================== */
 .page-seven {
@@ -184,9 +176,7 @@ p {
     flex-wrap: wrap-reverse;
 }
 
-.page-seven__texts {
-    margin-top: 246px;
-}
+.page-seven__texts {margin: auto 0;}
 
 /* ============ Page 8 ==================================================================================================================================== */
 .page-eight {
@@ -201,9 +191,7 @@ p {
     flex-wrap: wrap-reverse;
 }
 
-.page-eight__texts {
-    margin-top: 265px;
-}
+.page-eight__texts {margin: auto 0;}
 
 /* ============ Page 9 ==================================================================================================================================== */
 .page-nine {
@@ -288,25 +276,14 @@ p {
 @media screen and (max-width: 1340px){
     p {width: 570px;}
 
-    .page-two__content {justify-content: center !important;}
-    .page-two__texts {margin-top: 16px;}
-
-    .page-three__content {justify-content: center !important;}
-    .page-three__texts {margin-top: 16px;}
-
-    .page-four__content {justify-content: center !important;}
-    .page-four__texts {margin-top: 16px;}
-
-    .page-five__content {justify-content: center !important;}
-    .page-five__texts {margin-top: 16px;}
-
-    .page-six__content {justify-content: center !important;}
-    .page-six__texts {margin-top: 16px;}
-
-    .page-seven__content {justify-content: center !important;}
-    .page-seven__texts {margin-top: 16px;}
-
+    .page-two__content, .page-three__content, 
+    .page-four__content, .page-five__content, 
+    .page-six__content, .page-seven__content, 
     .page-eight__content {justify-content: center !important;}
+
+    .page-two__texts, .page-three__texts, 
+    .page-four__texts, .page-five__texts, 
+    .page-six__texts, .page-seven__texts, 
     .page-eight__texts {margin-top: 16px;}
 }
 
@@ -361,6 +338,7 @@ p {
         margin-right: 8px;
         text-decoration: none;
         margin-bottom: 64px;
+        min-width: 60px;
     }
 }
 
@@ -442,31 +420,33 @@ p {
 /* =========== Media Querie 376 ======================================================================================================================== */
 
 @media screen and (max-width: 376px) {
-    .page-one__logo svg {
-        width: 40px;
-        height: 40px;
-    }
-
-    .page-one__content {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-
-    .page-one__content h6 {
+    h6 {
         font-style: normal;
         font-weight: 300;
         font-size: 12px;
         line-height: 16px;
         margin-bottom: 8px;
     }
-    
-    .page-one__content h5 {
-        margin-bottom: 8px;
+
+    h5 {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
         line-height: 23px;
+        margin-bottom: 8px;
     }
+
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 23px;
+        margin-bottom: 8px;
+    }
+
+    img {border-radius: 4px;}
+
+    .page-one__logo svg {width: 40px; height: 40px;}
 
     .page-one__content p {
         font-style: normal;
@@ -479,348 +459,49 @@ p {
         margin-bottom: 62px;
     }
 
-    .page-one__cv {
-        margin-top: -3px !important;
-    }
+    .page-one__cv {margin-top: -3px !important;}
+    .page-one__arrow {margin-top: 4px !important;}
+    .page-one__scroll {margin-bottom: 32px;}
+    .page-one__scroll svg {width: 71px; height: 44px;}
 
-    .page-one__arrow {
-        margin-top: 4px !important;
-    }
+    .page-two, .page-three, 
+    .page-four, .page-five, 
+    .page-six, .page-seven, 
+    .page-eight, .page-nine {height: 100vh;}
 
-    .page-one__scroll {
-        margin-bottom: 32px;
-    }
+    .page-one__content {padding-left: 24px; padding-right: 24px;}
+    .page-two__content, .page-five__content {margin: 24px;}
+    .page-three__content, .page-six__content, .page-seven__content {margin: 24px 24px 47px 24px;}
+    .page-four__content, .page-eight__content {margin: 24px 24px 69px 24px;}
 
-    .page-one__scroll svg {
-        width: 71px;
-        height: 44px;
-    }
+    .page-two__content img, .page-three__content img, 
+    .page-four__content img, .page-five__content img, 
+    .page-six__content img, .page-seven__content img, 
+    .page-eight__content img {width: 327px; height: 420px;}
 
-    .page-two {
-        height: 100vh;
-    }
-
-    .page-two__content {
-        margin: 24px;
-    }
-
-    .page-two__content img {
-        width: 327px;
-        height: 420px;
-    }
-
-    .page-two__texts {
+    .page-two__texts, .page-five__texts {
         margin-top: 8px;
         width: 327px;
         height: 183px;
     }
 
-    .page-two__texts h6 {
-        font-style: normal;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 16px;
-        margin-bottom: 8px;
-    }
-
-    .page-two__texts h5 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-two__texts p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-three {
-        height: 100vh;
-    }
-
-    .page-three__content {
-        margin: 24px 24px 47px 24px;
-    }
-
-    .page-three__content img {
-        width: 327px;
-        height: 420px;
-    }
-
-    .page-three__texts {
+    .page-three__texts, .page-six__texts, .page-seven__texts {
         margin-top: 8px;
         width: 327px;
         height: 160px;
     }
 
-    .page-three__texts h6 {
-        font-style: normal;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 16px;
-        margin-bottom: 8px;
-    }
-
-    .page-three__texts h5 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-three__texts p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-four {
-        height: 100vh;
-    }
-
-    .page-four__content {
-        margin: 24px 24px 69px 24px;
-    }
-
-    .page-four__content img {
-        width: 327px;
-        height: 420px;
-    }
-
-    .page-four__texts {
+    .page-four__texts, .page-eight__texts {
         margin-top: 8px;
         width: 327px;
         height: 138px;
     }
 
-    .page-four__texts h6 {
-        font-style: normal;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 16px;
-        margin-bottom: 8px;
-    }
-
-    .page-four__texts h5 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-four__texts p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-five {
-        height: 100vh;
-    }
-    
-    .page-five__content {
-        margin: 24px;
-    }
-
-    .page-five__content img {
-        width: 327px;
-        height: 420px;
-    }
-
-    .page-five__texts {
-        margin-top: 8px;
-        width: 327px;
-        height: 183px;
-    }
-
-    .page-five__texts h6 {
-        font-style: normal;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 16px;
-        margin-bottom: 8px;
-    }
-
-    .page-five__texts h5 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-five__texts p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-six {
-        height: 100vh;
-    }
-
-    .page-six__content {
-        margin: 24px 24px 47px 24px;
-    }
-
-    .page-six__content img {
-        width: 327px;
-        height: 420px;
-    }
-
-    .page-six__texts {
-        margin-top: 8px;
-        width: 327px;
-        height: 160px;
-    }
-
-    .page-six__texts h6 {
-        font-style: normal;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 16px;
-        margin-bottom: 8px;
-    }
-
-    .page-six__texts h5 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-six__texts p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-seven {
-        height: 100vh;
-    }
-
-    .page-seven__content {
-        margin: 24px 24px 47px 24px;
-    }
-
-    .page-seven__content img {
-        width: 327px;
-        height: 420px;
-    }
-
-    .page-seven__texts {
-        margin-top: 8px;
-        width: 327px;
-        height: 160px;
-    }
-
-    .page-seven__texts h6 {
-        font-style: normal;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 16px;
-        margin-bottom: 8px;
-    }
-
-    .page-seven__texts h5 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-seven__texts p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-eight {
-        height: 100vh;
-    }
-
-    .page-eight__content {
-        margin: 24px 24px 69px 24px;
-    }
-
-    .page-eight__content img {
-        width: 327px;
-        height: 420px;
-    }
-
-    .page-eight__texts {
-        margin-top: 8px;
-        width: 327px;
-        height: 138px;
-    }
-
-    .page-eight__texts h6 {
-        font-style: normal;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 16px;
-        margin-bottom: 8px;
-    }
-
-    .page-eight__texts h5 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-eight__texts p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 23px;
-        margin-bottom: 8px;
-    }
-
-    .page-nine {
-        height: 100vh;
-    }
-    
     .page-nine__footer h5 {
-        font-style: normal;
         font-weight: 300;
         font-size: 12px;
         line-height: 16px;
         margin-bottom: 16px;
         width: 297px;
     }
-
-    .page-nine__footer h6 {
-        font-style: normal;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 16px;
-        margin-bottom: 0px;
-    }
-
-    img {
-        border-radius: 4px;
-    }
 }
-
-/*1240*/
