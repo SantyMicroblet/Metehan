@@ -35,7 +35,9 @@ p {
     width: 510px;
 }
 
-/* ============ Page 1 ==================================================================================================================================== */
+.pointer {margin-left: 8px;}
+
+/* ============================================================ Page 1 ============================================================ */
 .page-one {
     width: 100vw;
     height: 100vh;
@@ -43,9 +45,7 @@ p {
     flex-direction: column;
 }
 
-.page-one__logo svg {
-    margin-top: 48px;
-}
+.page-one__logo svg {margin-top: 48px;}
 
 .page-one__content {
     padding-left: 120px;
@@ -54,10 +54,7 @@ p {
     flex-direction: column;
 }
 
-.page-one__content h6 {
-    color: rgba(249, 242, 242, 0.48);
-}
-
+.page-one__content h6 {color: rgba(249, 242, 242, 0.48);}
 .page-one__content h5 {color: #F9F2F2;}
 
 .page-one__content p {
@@ -84,116 +81,24 @@ p {
     margin-bottom: 3vh;
 }
 
-/* ============ Page 2 ==================================================================================================================================== */
-.page-two {
+/* ============================================================ Page 2 to 8 ============================================================ */
+.page-two, .page-three, .page-four, .page-five, .page-six, .page-seven, .page-eight {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.page-two__content {
+.page-two__content, .page-three__content, .page-four__content, .page-five__content, 
+.page-six__content, .page-seven__content, .page-eight__content {
     margin-left: 120px;
     margin-right: 120px;
     flex-wrap: wrap-reverse;
 }
 
-.page-two__texts {margin: auto 0;}
+.page-two__texts, .page-three__texts, .page-four__texts, .page-five__texts, 
+.page-six__texts, .page-seven__texts, .page-eight__texts {margin: auto 0;}
 
-.pointer {
-    margin-left: 8px;
-}
-
-/* ============ Page 3 ==================================================================================================================================== */
-.page-three {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.page-three__content {
-    margin-left: 120px;
-    margin-right: 120px;
-    flex-wrap: wrap-reverse;
-}
-
-.page-three__texts {margin: auto 0;}
-
-/* ============ Page 4 ==================================================================================================================================== */
-.page-four {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.page-four__content {
-    margin-left: 120px;
-    margin-right: 92px;
-    flex-wrap: wrap-reverse;
-}
-
-.page-four__texts {margin: auto 0;}
-
-/* ============ Page 5 ==================================================================================================================================== */
-.page-five {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.page-five__content {
-    margin-left: 120px;
-    margin-right: 120px;
-    flex-wrap: wrap-reverse;
-}
-
-.page-five__texts {margin: auto 0;}
-
-/* ============ Page 6 ==================================================================================================================================== */
-.page-six {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.page-six__content {
-    margin-right: 120px;
-    margin-left: 120px;
-    flex-wrap: wrap-reverse;
-}
-
-.page-six__texts {margin: auto 0;}
-
-/* ============ Page 7 ==================================================================================================================================== */
-.page-seven {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.page-seven__content {
-    margin-right: 120px;
-    margin-left: 120px;
-    flex-wrap: wrap-reverse;
-}
-
-.page-seven__texts {margin: auto 0;}
-
-/* ============ Page 8 ==================================================================================================================================== */
-.page-eight {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.page-eight__content {
-    margin-left: 120px;
-    margin-right: 120px;
-    flex-wrap: wrap-reverse;
-}
-
-.page-eight__texts {margin: auto 0;}
-
-/* ============ Page 9 ==================================================================================================================================== */
+/* ============================================================ Page 9 ============================================================ */
 .page-nine {
     height: 100vh;
     display: flex;
@@ -256,7 +161,6 @@ p {
 }
 
 .page-nine__footer h5 {
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 23px;
@@ -271,28 +175,23 @@ p {
     color: rgba(249, 242, 242, 0.64);
 }
 
-/* =========== Media Querie 1340 ======================================================================================================================== */
-
+/* ============================================================ Media Query 1340 ============================================================ */
 @media screen and (max-width: 1340px){
     p {width: 570px;}
 
-    .page-two__content, .page-three__content, 
-    .page-four__content, .page-five__content, 
-    .page-six__content, .page-seven__content, 
+    .page-two__content, .page-three__content, .page-four__content, 
+    .page-five__content, .page-six__content, .page-seven__content, 
     .page-eight__content {justify-content: center !important;}
 
-    .page-two__texts, .page-three__texts, 
-    .page-four__texts, .page-five__texts, 
-    .page-six__texts, .page-seven__texts, 
+    .page-two__texts, .page-three__texts, .page-four__texts, 
+    .page-five__texts, .page-six__texts, .page-seven__texts, 
     .page-eight__texts {margin-top: 16px;}
 }
 
-/* =========== Media Querie 850 ======================================================================================================================== */
-
+/* ============================================================ Media Query 850 ============================================================ */
 @media screen and (max-width: 850px) {
-    .page-two__content, .page-three__content,
-    .page-four__content, .page-five__content,
-    .page-six__content, .page-seven__content,
+    .page-two__content, .page-three__content, .page-four__content,
+    .page-five__content, .page-six__content, .page-seven__content,
     .page-eight__content {margin: 24px;}
     
     .page-nine__footer {padding: 185px 13px 64px 24px;}
@@ -342,13 +241,9 @@ p {
     }
 }
 
-/* =========== Media Querie 635 ======================================================================================================================== */
-
+/* ============================================================ Media Query 635 ============================================================ */
 @media screen and (max-width: 635px) {
-    .page-one__content {
-        padding-right: 60px;
-        padding-left: 60px;
-    }
+    .page-one__content {padding-right: 60px; padding-left: 60px;}
 
     .details {width: 82px; height: 29px;}
 
@@ -363,9 +258,8 @@ p {
         line-height: 30.74px;
     }
 
-    .page-two__texts, .page-three__texts,
-    .page-four__texts, .page-five__texts,
-    .page-six__texts, .page-seven__texts,
+    .page-two__texts, .page-three__texts, .page-four__texts, 
+    .page-five__texts, .page-six__texts, .page-seven__texts, 
     .page-eight__texts {width: 100%; min-width: 327px;}
 
     .soon {
@@ -380,8 +274,7 @@ p {
     }
 }
 
-/* =========== Media Querie 565 ======================================================================================================================== */
-
+/* ============================================================ Media Query 565 ============================================================ */
 @media screen and (max-width: 565px) {
     .page-one__content {
         padding-left: 35px;
@@ -417,8 +310,7 @@ p {
     }
 }
 
-/* =========== Media Querie 376 ======================================================================================================================== */
-
+/* ============================================================ Media Query 376 ============================================================ */
 @media screen and (max-width: 376px) {
     h6 {
         font-style: normal;
@@ -474,9 +366,8 @@ p {
     .page-three__content, .page-six__content, .page-seven__content {margin: 24px 24px 47px 24px;}
     .page-four__content, .page-eight__content {margin: 24px 24px 69px 24px;}
 
-    .page-two__content img, .page-three__content img, 
-    .page-four__content img, .page-five__content img, 
-    .page-six__content img, .page-seven__content img, 
+    .page-two__content img, .page-three__content img, .page-four__content img, 
+    .page-five__content img, .page-six__content img, .page-seven__content img, 
     .page-eight__content img {width: 327px; height: 420px;}
 
     .page-two__texts, .page-five__texts {
